@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*******************************************
 
         DARKMODE by Sander Hellesø
@@ -155,4 +155,3 @@ function clearDarkMode() {
     // reset array containing changed elements
     darkElements = [];
 }
->>>>>>> 228b0024aa6eafdcd2872e19a34bd67c381af5c0
