@@ -1,5 +1,5 @@
 # darkMode
-darkMode qucikly allows you to change an entire HTML page to a dark theme with a single trigger, then revert back once triggered again.
+darkMode qucikly allows you to change an entire HTML page and its elements to a dark theme with a single trigger, then revert back once triggered again.
 
 ## Usage
 Simply pull this repository and include the script on any HTML page. Enter the ID of the element you want to use as a trigger and you are good to go.
