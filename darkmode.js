@@ -16,16 +16,16 @@ var backgroundColor:
 // start the application
 window.onload = start;
 function start() {
-
+     
+    // get body element
+    body = document.getElementsByTagName("BODY")[0].id = "body"
+        
     // initialize darkmode trigger, replace trigger with your own trigger element
     document.getElementById("trigger").addEventListener("click", darkMode);
 
     // to change colors, replace the following colorcodes with your own
     textColor = "#9e9e9e";
     backgroundColor = "#212121";
-    
-    // body ID
-    body = document.getElementById("body");
 }
 
 function darkMode() {
@@ -71,7 +71,7 @@ function clearDarkMode() {
     this.addEventListener("click", darkMode);
 
     // revert changed elements
-    darkEles.forEach(function(ele) {
+    darkElements.forEach(function(ele) {
         ele.style.removeProperty("color");
         ele.style.removeProperty("background-color");
     });
