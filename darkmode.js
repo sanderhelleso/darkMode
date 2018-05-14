@@ -47,8 +47,8 @@ function darkMode() {
         // buttons
         let buttons = node.querySelectorAll("button");
         buttons.forEach(function(ele) {
-            ele.style.backgroundColor = backgroundColor;
-            ele.style.color = textColor;
+            ele.style.backgroundColor = textColor;
+            ele.style.color = backgroundColor;
             darkElements.push(ele);
         });
 
