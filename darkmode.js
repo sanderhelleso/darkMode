@@ -7,7 +7,7 @@
 
 ******************************************/
 
-// Globals
+// globals
 var body;
 var textColor;
 var backgroundColor:
@@ -52,6 +52,7 @@ function darkMode() {
     });
 }
 
+// hold changed elements
 var darkElements = [];
 function clearDarkMode() {
 
