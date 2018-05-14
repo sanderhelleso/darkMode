@@ -23,6 +23,9 @@ function start() {
     // to change colors, replace the following colorcodes with your own
     textColor = "#9e9e9e";
     backgroundColor = "#212121";
+    
+    // body ID
+    body = document.getElementById("body");
 }
 
 function darkMode() {
@@ -31,7 +34,6 @@ function darkMode() {
     this.addEventListener("click", clearDarkMode);
 
     // set body as dark
-    body = document.getElementById("body");
     body.style.backgroundColor = backgroundColor;
 
     // get all elements on the page
