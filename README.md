@@ -1,8 +1,10 @@
 # darkMode
-darkMode is an analytics app for web projects. It helps you track events on your websites. It is built using Rails, Devise, and a few charting libraries.
+darkMode qucikly allows you to change an entire HTML page to a dark theme with a single trigger, then revert back once triggered again.
 
 ## Usage
-Simply pull this repository and include the script on any HTML page. Enter the ID of the element you want to use as a trigger.
+Simply pull this repository and include the script on any HTML page. Enter the ID of the element you want to use as a trigger and you are good to go.
+
+If you want to use the script combined with other functionality, copy darkMode, clearDarkMode and the color variables into your own script, and initialize the trigger in your onload function.
 
 <h5>Changes an entire HTML page to a dark theme with a trigger, then revert the style back again once triggered again</h5>
 <img src="https://raw.githubusercontent.com/sanderhelleso/darkMode/master/screenshots/darkMode1.jpg">
