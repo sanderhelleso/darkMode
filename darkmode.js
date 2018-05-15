@@ -18,7 +18,7 @@ window.onload = start;
 function start() {
      
     // get body element
-    body = document.getElementsByTagName("BODY")[0].id = "body"
+    body = document.getElementsByTagName("BODY")[0].id = "body";
         
     // initialize darkmode trigger, replace trigger with your own trigger element
     document.getElementById("trigger").addEventListener("click", darkMode);
