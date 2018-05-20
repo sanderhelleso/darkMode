@@ -11,7 +11,7 @@
 // Globals
 var body;
 var textColor;
-var backgroundColor:
+var backgroundColor;
 
 // start the application
 window.onload = start;
